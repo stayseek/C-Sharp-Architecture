@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HW2_2
 {
-    class Clothes : IItem
+    //С учётом разделения интерфейсов класс будет представлен в следующем виде:
+    class Clothes : ISizableItem, IColorableItem, IPromoItem, IDiscountableItem
     {
         public void SetColor(Color color) { }
         public void SetDiscount(double discount) { }

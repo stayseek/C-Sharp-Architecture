@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace HW3
 {
-    class FigureFactory
+    class FigureFactory: IFigureFactory
     {
         Dictionary<string, Type> figures;
 

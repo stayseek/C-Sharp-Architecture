@@ -14,5 +14,7 @@
         public string Width => this._width;
 
         public string Length => this._length;
+
+        public override string ToString() => $"{Name}, Длина стороны: {this.Width}";
     }
 }
